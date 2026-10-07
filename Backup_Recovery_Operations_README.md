@@ -172,6 +172,8 @@ The current backup script backs up:
 /home/tbear/
 /etc/
 /var/lib/plexmediaserver/
+/opt/internet-monitor/
+/var/log/internet-monitor/ 
 ```
 
 The rsync options include:
