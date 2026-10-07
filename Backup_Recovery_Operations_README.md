@@ -53,14 +53,14 @@ A Sabrent external SSD named **Mac Recovery** provides a second, detachable Mac 
 
 Typical procedure:
 
-1. Connect the Sabrent SSD.
-2. Run:
+1. Connect the Sabrent SSD to macbook.
+2. Run on macbook:
 
 ```bash
 backup-mac-recovery
 ```
 
-3. Check Time Machine status:
+3. Check Time Machine status on macbook:
 
 ```bash
 tmutil status
@@ -72,7 +72,7 @@ The drive can be disconnected and retained separately or taken when traveling.
 
 ### 2.3 Pruning Mac Recovery Backups
 
-The controlled pruning utility is:
+The controlled pruning utility is on macbook under :
 
 ```bash
 prune-mac-recovery 2
